@@ -1,0 +1,7 @@
+G India 60 22 0.732 ME
+B Pakistan 58 24 0.707 IT
+X Australia 51 31 0.622 IT
+Y Boston 49 33 0.598 CS
+Z Africa 48 34 0.585 CE
+
+

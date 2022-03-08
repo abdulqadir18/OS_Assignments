@@ -1,0 +1,162 @@
+man command-name
+sudo adduser tecmint
+agetty -L 9600 ttyS1 vt100
+alias home='cd /home/tecmint/public_html'
+apropos adduser
+sudo apt update
+sudo apt-get update
+sudo aptitude update
+arch 
+sudo arp-scan --interface=enp2s0 --localnet  
+sudo echo "shutdown -h now" | at -m 23:55
+atq
+atrm 2
+awk '//{print}'/etc/hosts
+basename bin/findhosts.sh
+echo 20.05 + 15.00 | bc
+tar -czf home.tar.gz .
+bg 
+jobs
+bzip2 -z filename      #Compress
+bzip2 -d filename.bz2  #Decompress
+cal
+cat file.txt
+chgrp tecmint users.txt
+chmod +x sysinfo.sh
+chmod -R www-data:www-data /var/www/html
+cksum README.txt
+clear
+cmp file1 file2
+comm file1 file2
+cp /home/tecmint/file1 /home/tecmint/Personal/
+date
+date --set="8 JUN 2017 13:00:00"
+dd if=/home/tecmint/kali-linux-1.0.4-i386.iso of=/dev/sdc1 bs=512M; sync
+df -h
+diff file1 file2
+dir
+sudo dmidecode --type system
+du /home/aaronkilik
+echo “This is TecMint - Linux How Tos”
+eject /dev/cdrom
+eject /mnt/cdrom/
+eject /dev/sda
+env
+exit
+expr 20 + 30
+factor 10
+find /home/tecmint/ -name tecmint.txt
+free -h 
+grep ‘tecmint’ domain-list.txt
+groups
+groups tecmint
+gzip passwds.txt
+cat file1 file2 | gzip > foo.gz
+gunzip foo.gz
+history
+hostname
+hostname NEW_HOSTNAME
+hostnamectl
+sudo hostnamectl set-hostname NEW_HOSTNAME
+sudo hwclock
+sudo hwclock --set --date 8/06/2017
+hwinfo
+id tecmint
+ifconfig
+sudo ifconfig eth0 up
+sudo ifconfig eth0 down
+sudo ifconfig eth0 172.16.25.125
+ionice -c 3 rm /var/logs/syslog
+iostat 
+sudo ip addr add 192.168.56.10 dev eth1
+sudo iptables -L -n -v
+iw list 
+iwlist wlp1s0 scanning
+kill -p 2300
+kill -SIGTERM -p 2300
+killall firefox
+kmod list
+last 
+ln -s /usr/bin/lscpu cpuinfo
+locate -b '\domain-list.txt'
+sudo login
+ls -l file1
+sudo lshw  
+lscpu
+lsof -u tecmint
+lsusb 
+man du
+man df
+sudo debsums
+mkdir tecmint-files
+mkdir -p tecmint-files
+more file.txt
+mv test.sh sysinfo.sh 
+nano file.txt
+nc -zv 192.168.1.5 22
+netstat -a | more
+nice -12 tar -czf backup.tar.bz2 /home/*
+nmap -sV 192.168.56.0/24
+nproc  
+tar -czf - * | openssl enc -e -aes256 -out backup.tar.gz
+passwd tecmint
+pidof init
+pidof cinnamon
+ping google.com
+pstree
+pwd
+sudo rdiff-backup /etc /media/tecmint/Backup/server_etc.backup
+reboot
+rename 's/\.html$/\.php/' *.html
+rm file1
+rm -rf my-files
+rmdir /backup/all
+scp ~/names.txt root@192.168.56.10:/root/names.txt
+shutdown --poweroff
+check.sh; sleep 5; sudo apt update
+cat words.txt
+tar -cvjf backup.tar.bz2 /home/tecmint/Documents/* 
+ssh tecmint@192.168.56.10
+stat file1
+su 
+su tecmint
+sudo apt update
+sudo useradd tecmint
+sudo passwd tecmint
+sum output file.txt 
+ac file.txt
+tail long-file
+tail -n 15 long-file
+talk person [ttyname]
+talk‘user@host’ [ttyname]
+tar -czf home.tar.gz .
+echo "Testing how tee command works" | tee file1 
+tree
+time wc /etc/hosts
+top
+touch file.txt
+cat domain-list.txt | tr [:lower:] [:upper:]
+uname 
+cat domain-list.txt
+uptime
+users
+vim file
+w
+wall “This is TecMint – Linux How Tos”
+watch -d ls -l
+wc filename
+wget -c http://ftp.gnu.org/gnu/wget/wget-1.5.3.tar.gz
+whatis wget
+which who
+who
+whereis cat
+echo /home/aaronkilik/test/ /home/aaronkilik/tmp | xargs -n 1 cp -v /home/aaronkilik/bin/sys_info.sh
+yes "This is TecMint - Linux HowTos"
+youtube-dl --list-formats https://www.youtube.com/watch?v=iR
+zcmp domain-list.txt.zip basic_passwords.txt.zip
+zdiff domain-list.txt.zip basic_passwords.txt.zip 
+tar cf - . | zip | dd of=/dev/nrst0 obs=16k
+zip inarchive.zip foo.c bar.c --out outarchive.zip
+tar cf - .| zip backup -
+zz
+history > 0801CS201003_Assignment.txt
